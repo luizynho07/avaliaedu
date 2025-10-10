@@ -1,0 +1,192 @@
+body {
+    font-family: open sans;
+    margin: 0;
+    min-height: 1200px;
+    max-width: 100%; background: linear-gradient(-45deg, #0A0935, #0e0159c9
+, #400273,  #0e0f75)    !important;
+color: white;
+}
+
+ 
+.inicial{
+    margin-left: 10px;
+   
+     a {
+      color: rgb(253, 253, 253);
+    }
+    
+}
+.logo {
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+
+}
+
+.logo img{
+    /*altura*/
+    height: 200px;
+    /*largura*/
+    width: auto;
+
+}
+
+.Bem-Vindo{
+    font-size:x-large;
+    display: flex ; 
+    justify-content: center;
+    
+    
+    
+
+}
+.Nome {
+    display: flex;
+    justify-content:center;
+    padding: 1px;
+    margin-bottom: 6px;
+    height: 35px;
+    width: auto;
+    
+
+}
+#nome{
+     background-color: transparent;
+     border-top: transparent;
+     border-right: transparent;
+     border-left: white;
+
+}
+
+.email {
+    display: flex;
+    justify-content:center;
+    margin-left: 2px;
+    padding: 5px;
+    margin-bottom: 6px;
+    height: 35px;
+    width: auto;
+    
+
+}
+#email{
+     background-color: transparent;
+     border-top: transparent;
+     border-right: transparent;
+   
+
+}
+
+.Acesso {
+    display: flex;
+    justify-content:center;
+    font-size: larger;
+
+}
+.coopro {
+    display: flex;
+    justify-content:center;
+    
+
+}
+
+.escola {
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    padding: 5px;
+    height: 35px;
+    
+    
+
+}
+#escola{
+     background-color: transparent;
+     border-top: transparent;
+     border-right: transparent;
+     margin-bottom: 6px;
+
+}
+.senha {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 6px;
+    height: 45px;
+    width: auto;
+
+}
+#senha{
+     background-color: transparent;
+     border-top: transparent;
+     border-right: transparent;
+     margin-bottom: 6px;
+
+}
+
+.confirmarsenha {
+    display: flex;
+    justify-content:center;
+    padding: 5px;
+    height: 35px;
+    width: auto;
+}
+#confirmarSenha{
+     background-color: transparent;
+     border-top: transparent;
+     border-right: transparent;
+
+}
+.termosdeuso{
+     display: flex;
+    justify-content:center;
+    margin-top: 15px;
+    a {
+      color: rgb(253, 253, 253);
+    }
+
+}
+.cadastrar{
+    display: flex;
+    justify-content:center;
+     margin-top: 15px; 
+
+}
+#cadastrar{
+     background-color: black;
+     border-top: transparent;
+     border-right: transparent;
+     color: aliceblue;
+     height: 45px;
+    width: 150px;
+
+}
+.g{
+    display: flex;
+    justify-content:center;
+     margin-top: 5px; 
+
+}
+#g{
+     background-color: black;
+     border-top: transparent;
+     border-right: transparent;
+     color: aliceblue;
+
+}
+.login{
+    display: flex;
+    justify-content:center;
+     margin-top: 10px; 
+     a {
+      color: rgb(253, 253, 253);
+    }
+}
+
+
+
+
+
+
+
+
