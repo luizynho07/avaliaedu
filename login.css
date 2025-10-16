@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  background: linear-gradient(-45deg, #012a4a, #013a63, #01497c, #014f86, #2a6f97, #2c7da0);
+  background-size: 200% 200%;
+  height: 100vh;
+  color: #fff;
+  
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+ #pag-home-container{
+  position: fixed;
+  margin-top: 28px;
+  margin-left: 28px;
+}
+
+#pag-home{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+#pag-home:hover{
+    text-decoration: underline;
+    color: #f0f0f0;
+}
+.logo {
+    display: flex ; 
+    justify-content: center;
+    align-items: center;
+     
+
+}
+
+.logo img{
+    /*altura*/
+    height: 250px;
+    /*largura*/
+    width: auto;
+    margin-top: 25px;
+   
+
+}
+
+#titulo-bemVindo{
+    font-size:2rem;
+    display: flex ; 
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
+    
+    
+    
+
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column; /* empilha label e input */
+  align-items: center;     /* centraliza horizontalmente */
+  margin-bottom: 20px;     /* espaçamento entre campos */
+  padding: 0 12px;         /* espaçamento interno lateral */
+  width: 100%;
+
+}
+
+.container-form input{
+  background-color: transparent;
+  margin-top: 32px;
+  padding: 32px;
+  border-top: transparent;
+  border-right: transparent;
+  border-color: #fff;
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  
+}
+
+@media (min-width: 720px) {
+.container-form input,
+.container-form select {
+width: 28vw;
+height: 6vh;
+
+}
+}
+
+
+
+
+
+#bt-entrar{
+    background: linear-gradient(135deg, #023e8a, #0077b6);
+    height: 45px;
+    width: 150px;
+    display: flex;
+    justify-content:center;
+    margin: 0 auto; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+     color: #fffefe;
+    font-size: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 100;  
+    
+}
+
+#bt-entrar:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.bt-google-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/*Opção de cadastro utilizando o google*/
+/* #btn-google {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 12px;
+  background: #ffffff;
+  color: #000;
+  font-size: 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#btn-google:hover {
+  background: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+#btn-google img {
+  width: 20px;
+  height: 20px;
+} */
+.cadastrar-link{
+    display: flex;
+    justify-content:center;
+     margin-top: 10px; 
+     a {
+      color: rgb(253, 253, 253);
+    }
+}

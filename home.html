@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvaliaEdu- Home </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/home.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="nav-bg"></div>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+    
+        <a href="#" class="logo">AvaliaEdu</a>      
+
+        <nav class="navbar">
+            
+    
+            <a href="#">Home</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Contato</a>     
+            
+        </nav>
+          <div class="container-entrar">
+    <a href="login.html" class="btn" id="bt-entrar">Entrar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+</svg></a>
+ </div>
+  
+    </header>
+
+     <section class="galeria">
+     <div class="container-gallery">
+        <div class="gallery">
+            <div class="img-box"><h3>+conexão</h3></div>
+             <div class="img-box"><h3>+participação</h3></div>
+              <div class="img-box"><h3>+educação</h3></div>
+               <div class="img-box"><h3>+</h3></div>
+                
+        </div>
+     </div>
+
+    </section>
+
+
+    <section class="info">
+  <h1>O que é o AvaliaEdu?</h1>
+  <p>O AvaliaEdu é uma plataforma de avaliações educacionais que visa melhorar a qualidade do ensino e aprendizagem. Nosso objetivo é fornecer ferramentas eficazes para professores, alunos e instituições educacionais, facilitando o processo de avaliação e promovendo um ambiente de aprendizado mais interativo e colaborativo.</p>
+  <ul>
+    <li><strong>Professores:</strong> acompanham o status das avaliações e recebem feedback estruturado.</li>
+    <li><strong>Alunos:</strong> realizam avaliações e registram reclamações de forma simples pelo chatbot no WhatsApp.</li>
+    <li><strong>Coordenadores:</strong> têm acesso a um painel completo com gráficos, relatórios e controle das avaliações.</li>
+  </ul>
+</section>
+
+<div class="container-partc">
+    <a href="cadastro.html" class="btn" id="bt-participar">Participe já <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+</svg></a>
+ </div>
+
+<!-- <section class="sobre">
+<div class="card-about">
+  <div class="card-body-svg">
+     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" id="foto-aqui">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+</svg>
+    <h2 class="card-title-about">Sobre mim</h2>
+    <p class="card-text-about">Olá! Sou Fulano, apaixonado por [sua área de atuação ou interesse]. Ao longo dos anos, venho aprimorando minhas habilidades em [campo específico], sempre buscando inovação e aprendizado. Acredito que o conhecimento e a dedicação são essenciais para alcançar grandes resultados. No meu dia a dia, gosto de desafios que me impulsionam a crescer e evoluir. Além do trabalho, sou entusiasta de [hobby ou interesse pessoal], o que me mantém inspirado e motivado. Aqui no meu site, compartilho minhas experiências, projetos e ideias. Fique à vontade para explorar e conectar-se comigo!
+    </p>
+  </div>
+</div></section>
+ -->
+
+
+<hr>
+   <section class="contact">
+
+      <div id="contato-home"></div>
+        <form class="contact-form-home">
+          
+            <h2 style="color: aliceblue;">Entrar em contato</h2>
+           <div class="align-contact"><input type="text" placeholder="Seu nome" required></div> 
+           <div class="align-contact"></div> <input type="email" placeholder="Digite seu email aqui..."></div> 
+           <div class="align-contact"></div> <textarea placeholder="Deixe aqui sua descrição" required></textarea></div> 
+           <div class="align-contact"></div> <button type="submit">Enviar</button></div> 
+        </form>
+        </div>
+
+    </section>
+
+    
+    <script>const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.navbar');
+const navbg = document.querySelector('.nav-bg');
+menuIcon.addEventListener('click', () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+    navbg.classList.toggle('active');
+});</script>
+
+</body>
+</html>

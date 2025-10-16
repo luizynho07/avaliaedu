@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+      <link rel="stylesheet" href="CSS/global.css">
+     <link rel="stylesheet" href="CSS/login.css">
+
+
+     <title>Pagina de Login</title>
+
+</head>
+
+<body>
+
+     <section class="Logo-titulo">
+
+          <div id="pag-home-container"><a href="home.html" id="pag-home"><svg xmlns="http://www.w3.org/2000/svg"
+                         width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                         <path fill-rule="evenodd"
+                              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                    </svg> Página Inicial</a>
+          </div>
+
+          <div class="logo"> <img src="IMG/logo.png" alt="logo do AvaliaEdu"> </div>
+
+          <h1 id="titulo-bemVindo">Seja Bem-Vindo</h1>
+     </section>
+
+     <section class="cadastro">
+
+          <form action="#">
+               
+               <div class="container-form">
+
+                    <input type="email" name="Email" id="email" placeholder="Email Educacional" required>
+               </div>
+              
+
+               <div class="container-form">
+
+                    <input type="password" name="Senha" id="senha" placeholder="Senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+  title="A senha deve ter pelo menos 8 caracteres, incluindo uma letra maiúscula, uma minúscula e um número"
+  required>
+               </div>
+              
+
+               <button type="submit" id="bt-entrar">Entrar</button>
+
+               <!-- Opção de realizar cadastro com o Google -->
+               <!--  <div class="bt-google-container"> <a href="URL-de-autenticacao-google" id="btn-google">
+                         <img src="IMG/bt-google.png" alt="Google" />
+                         <span>Entrar com Google</span>
+                    </a></div> -->
+          </form>
+     </section>
+
+     <div class="cadastrar-link">
+          <p>É o seu primeiro acesso? Realize o seu <a href="cadastro.html">cadastro</a> </p>
+     </div>
+
+
+
+
+
+</body>
+
+</html>
