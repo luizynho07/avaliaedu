@@ -16,13 +16,7 @@ body {
  display: flex;
 }
 
-main {
-    
-    padding: 20px;
-     z-index: 1; 
-    padding-left: calc(82px + 20px);
 
-}
 
 /* Cadastro e Login */
 
@@ -512,12 +506,6 @@ body {
  display: flex;
 }
 
-main {
-    flex:1;
-    padding: 20px;
-    /* z-index: 1; */
-    padding-left: calc(82px + 20px);
-}
 
 /* Barra lateral */
 
@@ -693,15 +681,7 @@ main {
 
 }
 
-.container-avaliacoes{
-    border: 2px solid #fff;
-    padding: 12px;
-    border-radius: 16px;
-    margin: 0 auto;
-   max-width: 720px;
-   background: rgba(85, 85, 85, 0.295);  
-    backdrop-filter: blur(10px);   
-}
+
 
 .status-tracker{
     display:flex;
@@ -759,3 +739,40 @@ main {
 hr{
     margin-top: 50px;
 }
+.container-status{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50VW;
+    height: auto;
+    margin-top: 90px;
+    color: #fff;
+    margin: 82px auto;
+
+    
+}
+.usar-chatbot{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.gerar-qr{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 30px;
+    
+}
+.gerar-qr button{
+    background-color: darkolivegreen;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+
+    
+}
+nav{
+    margin:0%;
+}
+
