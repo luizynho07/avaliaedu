@@ -2,145 +2,96 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/CODIGOS/CSS/professor-home.css">
-   <link rel="stylesheet" href="/CODIGOS/CSS/global.css">
+    <link rel="stylesheet" href="professor-home.css">
+   <link rel="stylesheet" href="global.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   
    
     <title>Home-</title>
 </head>
 <body>
-    <div class="body-plataforma">
-    <aside>
-        <nav id="sidebar">
-        <div id="sidebar_content">
-            <div id="user">
-                <img src="/CODIGOS/IMG/avatar.jpg" id="user_avatar" alt="Avatar">
-    
-                <p id="user_infos">
-                    <span class="item-description">
-                        Fulano de Tal
-                    </span>
-                    <span class="item-description">
-                        Professor(a)
-                    </span>
-                </p>
-            </div>
-    
-            <ul id="side_items">
-                <li class="side-item active">
-                    <a href="#">
-                        <i class="fa-solid fa-house"></i>
-                        <span class="item-description">
-                            Menu
-                        </span>
-                    </a>
-                </li>
-    
-                <li class="side-item">
-                    <a href="#">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <span class="item-description">
-                            Dashboard
-                        </span>
-                    </a>
-                </li>
-    
-                <li class="side-item">
-                    <a href="#">
-                        <i class="fa-solid fa-bell"></i>
-                        <span class="item-description">
-                            Notificações
-                        </span>
-                    </a>
-                </li>
-    
-                <li class="side-item">
-                    <a href="#">
-                        <i class="fa-solid fa-box"></i>
-                        <span class="item-description">
-                            Produtos
-                        </span>
-                    </a>
-                </li>
-    
-                <li class="side-item">
-                    <a href="#">
-                        <i class="fa-solid fa-image"></i>
-                        <span class="item-description">
-                            Imagens
-                        </span>
-                    </a>
-                </li>
-    
-                <li class="side-item">
-                    <a href="#">
-                        <i class="fa-solid fa-gear"></i>
-                        <span class="item-description">
-                            Configurações
-                        </span>
-                    </a>
-                </li>
+ <nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Offcanvas navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-    
-            <button id="open_btn">
-                <i id="open_btn_icon" class="fa-solid fa-chevron-right"></i>
-            </button>
-        </div>
-
-        <div id="logout">
-            <button id="logout_btn">
-                <i class="fa-solid fa-right-from-bracket"></i>
-                <span class="item-description">
-                    Logout
-                </span>
-            </button>
-        </div>
-    </nav>
-  </aside>
-
-  <main> 
-    <div class="avaliacoes">
-   <div class="titulo-avaliacoes">
-        <h2>
-            Status das Avalições
-        </h2>
-        </div>
-        <div class="container-avaliacoes">
-        <p class="data-inicio">Começaram na data: XX/XX/XXXX</p>
-            <div class="status-tracker">
-  <div class="status-item ativo">
-    <div class="status-verde">
-    <span>Abertas</span></div>
-  </div>
-  <div class="linha"></div>
-  <div class="status-item">
-    <div class="status-laranja">
-    <span>Em andamento</span></div>
-  </div>
-  <div class="linha"></div>
-  <div class="status-item">
-    <div class="status-vermelho">
-    <span>Concluídas</span></div>
-  </div>
-</div> <p class="data-fim">Previsão de término: XX/XX/XXXX</p></div></div>
-    <div class="quant-avaliacoes">
-        <p>Quantidade de avaliações realiazadas: XXXX</p>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-    
-    <hr>
-  
-    <section class="qrcode">
-        <div class="titulo-qrcode">
-           <h3>Deseja utilizar o Chatbot?</h3>
+  </div>
+</nav>
         
-        </div>
-    </section>
+
+
+        <div class="container-status">
+            <p class="data-comeco">Data da Abertura da Avalições XX/XX/XXXX</p>
+          
+            <div class="status-verde">
+               <span> Abertas</span> 
+                
+            </div>
+             <div class="status-laranja">
+               <span> em andamento</span> 
+                
+            </div>
+             <div class="status-vermelho">
+               <span> fechadas</span>
+               </div> 
+               <p classe="data-fim">Data do Fim das Avaliações XX/XX/XXXX</pclasse></p>
+                
+            
+              </div>
+              <div class="usar-chatbot">
+              <p>Deseja utilizar o ChatBot?</p>
+              </div>
+              <div class="gerar-qr">
+              <button  >gerar QR-Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-qr-code-scan" viewBox="0 0 16 16">
+  <path d="M0 .5A.5.5 0 0 1 .5 0h3a.5.5 0 0 1 0 1H1v2.5a.5.5 0 0 1-1 0zm12 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0V1h-2.5a.5.5 0 0 1-.5-.5M.5 12a.5.5 0 0 1 .5.5V15h2.5a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1H15v-2.5a.5.5 0 0 1 .5-.5M4 4h1v1H4z"/>
+  <path d="M7 2H2v5h5zM3 3h3v3H3zm2 8H4v1h1z"/>
+  <path d="M7 9H2v5h5zm-4 1h3v3H3zm8-6h1v1h-1z"/>
+  <path d="M9 2h5v5H9zm1 1v3h3V3zM8 8v2h1v1H8v1h2v-2h1v2h1v-1h2v-1h-3V8zm2 2H9V9h1zm4 2h-1v1h-2v1h3zm-4 2v-1H8v1z"/>
+  <path d="M12 9h2V8h-2z"/>
+</svg></button>
+              </div>
+    
 
 </main>
     </div>
 
-   <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
     <script src="global.js"></script>
 </body>
 </html>
