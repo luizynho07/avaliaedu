@@ -1,0 +1,56 @@
+
+canvas {
+    max-width: 600px;
+    max-height: 400px; 
+  
+}
+.grafico1{
+    margin-top: 50px;
+    display: flex;
+
+    justify-content: center;
+   
+}
+
+.grafico2{
+    margin-top: 50px;
+    display: flex;
+
+    justify-content: center;
+   
+}
+
+
+.grafico3{
+    margin-top: 50px;
+    display: flex;
+
+    justify-content: center;
+   
+}
+
+.data{
+    border:#d02a2a ;
+    margin-left: 30px;
+    
+    background-color: transparent;
+    
+}
+
+.participacoes{
+    color: black;
+    width: 150px;
+    height: auto;
+    
+}
+   
+.quantmes{
+    display: flex;
+    justify-content: center;
+
+}
+
+.graficos{
+    
+}
+
