@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table,th,td{
+    border-collapse: collapse;
+    border:  2px solid #000;
+    border-width: 0;
+    border: 1px solid rgba(128, 128, 128, 0.664);
+    padding: 10px;
+    
+}
+
+th {
+    background-color: transparent;
+}
+select{
+    border-top: transparent;
+    margin-bottom: 20px;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+input{
+    margin-bottom: 20px;
+
+
+}
+.Avaliedu{
+    justify-content: center;
+    margin: 0% auto;
+}
+
+body {
+    background-color: #01497c;
+}
+
+table{
+    background-color: darkgray;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+}
+
+.elemento{
+    margin-bottom: 20px;
+}
+
+table {
+  border-collapse: separate; 
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  overflow: hidden; 
+}
+
+
+
+.Editar button{
+    background-color: #000000; 
+    color: white;              
+    padding: 10px 20px;       
+    border: none;                    
+    border-radius: 4px;  
+}      
+
+
+.Classificar button {
+    background-color: #606160; 
+    color: white;              
+    padding: 10px 20px;        
+    border: none;                         
+    border-radius: 4px;       
+}
+
+#corVermelha {
+    background-color: #cf0d0dd8; 
+    color: white;
+    border-radius: 10px;               
+}
+
+#corVerde {
+    background-color: #2cd450; 
+    color: white; 
+    border-radius: 10px;              
+}
+
+#corAmarela {
+    background-color: #d4d10e; 
+    color: white;  
+    border-radius: 10px;             
+}
+
+.botao{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.Prioridade{
+   
+}
